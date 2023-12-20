@@ -8,6 +8,10 @@
         input:focus{
             background-color: blue;
         }
+        :target{
+            border: 2px solid green; 
+            background-color: yellow;
+        }
     </style>
 </head>
 <body>
@@ -16,5 +20,10 @@
         <br>
         e-mail : <input type = "email" disabled = "disabled">
     </form>
+        <a href="#news1">Content 1</a><br>
+        <a href="#news2">Content 2</a>
+        
+        <p id = "news1">Content 1</p>
+        <p id = "news2">Content 2</p>
 </body>
 </html>
