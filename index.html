@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Title</title>
+    <style>
+        input:focus{
+            background-color: blue;
+        }
+    </style>
 </head>
 <body>
-    <table style="border: 5px solid black; width: 20%;">
-        <tr><th>ID</th><th>Name</th></tr>
-        <tr><td>001</td><td>Suparin</td></tr>
-        <tr><td>002</td><td>Srikhloi</td></tr>
-        <tr><td>003</td><td>Damrongkiat</td></tr>
-    </table>
+    <form>
+        Phone : <input type = "tel">
+        <br>
+        e-mail : <input type = "email" disabled = "disabled">
+    </form>
 </body>
 </html>
